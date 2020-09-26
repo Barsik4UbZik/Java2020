@@ -1,6 +1,6 @@
 package com.Pr5;
 
-public class Shape
+public abstract class Shape
 {
     private String color;
     public Shape(String color)
@@ -15,6 +15,7 @@ public class Shape
     {
         return color;
     }
+    abstract double getArea();
     @Override
     public String toString()
     {

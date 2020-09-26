@@ -27,7 +27,7 @@ public class Rectangle extends Shape
         return length;
     }
     @Override
-    int getArea()
+    double getArea()
     {
         return width * length;
     }
