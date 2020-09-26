@@ -1,6 +1,6 @@
 package com.Pr6;
 
-public class MovablePoint
+public class MovablePoint implements Movable
 {
     private int x;
     private int y;
@@ -25,5 +25,10 @@ public class MovablePoint
     {
         return y;
     }
-
+    @Override
+    public void move(int right, int down)
+    {
+        x += right;
+        y += down;
+    }
 }

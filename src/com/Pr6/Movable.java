@@ -1,6 +1,6 @@
 package com.Pr6;
 
-public class Movable
+public interface Movable
 {
-    
+    void Move(int right, int down);
 }
