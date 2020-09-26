@@ -2,5 +2,5 @@ package com.Pr6;
 
 public interface Movable
 {
-    void Move(int right, int down);
+    void move(int right, int down);
 }
