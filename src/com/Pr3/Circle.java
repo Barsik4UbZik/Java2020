@@ -7,7 +7,7 @@ public class Circle
     private double Length;
     public void setRadius(double radius)
     {
-        Radius = radius;
+        this.Radius = radius;
     }
     public double getRadius()
     {
