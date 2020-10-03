@@ -40,6 +40,8 @@ public class Company
         return totalIncome;
     }
 
+    //Yes
+
     @Override
     public String toString()
     {
