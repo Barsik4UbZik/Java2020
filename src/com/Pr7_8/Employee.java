@@ -4,13 +4,13 @@ public class Employee
 {
     private String name;
     private String surname;
-    private double baseIncome;
+    private double baseSalary;
     private EmployeePositions positions;
-    public  Employee(String name, String surname, double baseIncome, EmployeePositions positions)
+    public  Employee(String name, String surname, double baseSalary, EmployeePositions positions)
     {
         this.name = name;
         this.surname = surname;
-        this.baseIncome = baseIncome;
+        this.baseSalary = baseSalary;
         this.positions = positions;
     }
 
@@ -34,14 +34,14 @@ public class Employee
         return surname;
     }
 
-    public void setBaseIncome(double baseIncome)
+    public void setBaseSalary(double baseSalary)
     {
-        this.baseIncome = baseIncome;
+        this.baseSalary = baseSalary;
     }
 
-    public double getBaseIncome()
+    public double getBaseSalary()
     {
-        return baseIncome;
+        return baseSalary;
     }
 
     public void setPositions(EmployeePositions positions)
@@ -57,6 +57,6 @@ public class Employee
     @Override
     public String toString()
     {
-        return "Employee{" + "name='" + name + '\'' + ", surname='" + surname + '\'' + ", baseIncome=" + baseIncome + ", positions=" + positions + '}';
+        return "Employee{" + "name='" + name + '\'' + ", surname='" + surname + '\'' + ", baseSalary=" + baseSalary + ", positions=" + positions + '}';
     }
 }

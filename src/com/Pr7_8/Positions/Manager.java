@@ -20,9 +20,9 @@ public class Manager implements EmployeePositions
     }
 
     @Override
-    public double calcSalary(double baseIncome)
+    public double calcSalary(double baseSalary)
     {
-        return baseIncome + incomeToCompany * 0.05;
+        return baseSalary + incomeToCompany * 0.05;
     }
 
     public void setIncomeToCompany(double incomeToCompany)
