@@ -29,7 +29,7 @@ public class Form1 {
         button1.addActionListener(new ActionListener());
         {
             @Override
-            public void actionPerformed(ActionEvent e)
+            public void actionPerformed(ActionEvent e);
             {
                 System.out.println(textArea1.getText());
             }
@@ -39,7 +39,7 @@ public class Form1 {
     textArea1.addMouseListener(new MouseListener())
     {
         @Override
-        public void mouseClicked(MouseEvent e)
+        public void mouseClicked(MouseEvent e);
         {
             textArea1.setBackground(Color.magenta);
         }
